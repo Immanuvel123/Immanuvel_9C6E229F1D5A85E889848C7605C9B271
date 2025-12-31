@@ -4,9 +4,9 @@ def isLeapYear(year):
   else:
     return False
 
-year=2013
+year=int(input('Enter the Year))
 
 if isLeapYear(year):
-     print ('{} is a leap year.'.format(year))
+     print (f'{year} is a leap year.')
 else:
-     print ('{} is not a leap year.'.format(year))
+     print (f'{year} is not a leap year.')
