@@ -1,10 +1,10 @@
 def fact_rec(n):
-  if n==0 or n==1:
-     return 1
-  else:
-     return n*fact_rec(n-1)
-    
-number=2
+  ans=1
+  for i in rane(1,n+1):
+    ans=ans*i
+  return ans
+  
+number=int(input('Enter your number'))
 res = fact_rec(number)
 
-print("The factorial of{} is {}.".format(number,res))
+print(f'The factorial of {number} is {res})
